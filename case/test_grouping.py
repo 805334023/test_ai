@@ -36,4 +36,4 @@ class TestAi():
         dd=self.group.company_delete(b)
         assert dd.json() == True
         d=self.group.delete_group(a)
-        assert d.json() == True
+        assert d.json() == "Trdsa"
